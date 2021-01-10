@@ -46,7 +46,7 @@ function relative(rec1, rec2) {
 		res.bottom = `${rec1N.x2 - rec2N.x2}px`;
 	}
 	if(rec2.right) {
-		res.right = `${rec1N.y2 - rec2N.y1}px`;
+		res.right = `${rec1N.y2 - rec2N.y2}px`;
 	}
 	return res;
 }
